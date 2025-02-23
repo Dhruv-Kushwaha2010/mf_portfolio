@@ -1,5 +1,7 @@
 # Mutual Funds
 
+- [Data](https://www.amfiindia.com/net-asset-value/nav-history)
+
 - Portfolio of Hybrid Mutual Funds
 - We'll select top 5 funds based on AUM for each type of Hybrid Mutual Funds
 - Then we'll select one fund from each type of Hybrid Mutual Funds based on porfolio optimization algorithm
