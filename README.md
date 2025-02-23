@@ -59,10 +59,10 @@
 
 1. ICICI Prudential Multi Asset Fund - ₹52,760.77 Cr
 
-2. Kotak Multi Asset Allocation Fund - ₹7,680.06 Cr
+2. SBI Multi Asset Allocation Fund - ₹7,140.71 Cr
 
-3. SBI Multi Asset Allocation Fund - ₹7,140.71 Cr
+3. UTI Multi Asset Allocation Fund - ₹5,078.64 Cr
 
-4. UTI Multi Asset Allocation Fund - ₹5,078.64 Cr
+4. Nippon India Multi Asset Allocation Fund - ₹5,001.93 Cr
 
-5. Nippon India Multi Asset Allocation Fund - ₹5,001.93 Cr
+5. HDFC Multi Asset Fund - ₹3,892.70 Cr
