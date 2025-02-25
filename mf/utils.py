@@ -3,22 +3,24 @@ import pandas as pd
 import numpy as np
 import os
 from tqdm import tqdm
+from IPython.display import display
 
 
 def plot_correlation_matrix(df, width=800, height=600):
     """
     Create a correlation matrix heatmap using plotly with red-green color scheme.
-
     Parameters:
     df (pandas.DataFrame): Input dataframe
     width (int): Width of the plot in pixels
     height (int): Height of the plot in pixels
-
     Returns:
     plotly.graph_objects.Figure: Correlation matrix plot
     """
     # Calculate correlation matrix
-    corr_matrix = df.corr()
+    corr_matrix = df[df.columns[::-1]].corr()
+
+    # Reverse the order of columns to get diagonal from top-right to bottom-left
+    corr_matrix = corr_matrix[corr_matrix.columns[::-1]]
 
     # Create custom color scale (red for negative, green for positive)
     colors = [[0, "red"], [0.5, "white"], [1, "green"]]
@@ -28,7 +30,7 @@ def plot_correlation_matrix(df, width=800, height=600):
         data=go.Heatmap(
             z=corr_matrix,
             x=corr_matrix.columns,
-            y=corr_matrix.columns,
+            y=corr_matrix.index,
             zmin=-1,
             zmax=1,
             colorscale=colors,
