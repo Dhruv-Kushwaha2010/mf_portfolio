@@ -3,6 +3,8 @@
 ## Overview
 This analysis focuses on creating an optimized portfolio using various categories of Hybrid Mutual Funds in India. We selected the top 5 funds based on Assets Under Management (AUM) for each type of Hybrid Mutual Fund, then applied a portfolio optimization algorithm to select one fund from each category.
 
+Checkout the [code](analysis.ipynb) for the details of the analysis.
+
 > **Note:** All analysis was performed on Direct Growth Funds only.
 
 ## Data Source
