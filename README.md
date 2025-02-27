@@ -7,6 +7,19 @@
 - Then we'll select one fund from each type of Hybrid Mutual Funds based on porfolio optimization algorithm
 - We'll consider Growth funds only
 
+Note: All the analysis done is on Direct Growth Funds
+
+## A Good Portfolio according to the analysis till now:
+
+| Mutual Fund | Category | Weightage |
+|:------------|:---------:|---------:|
+| Invesco India Arbitrage Fund | Arbitrage | 10% |
+| ICICI Prudential Multi Asset Fund | Multi Asset | 40% |
+| ICICI Prudential Regular Savings Fund | Conservative Hybrid | 10% |
+| ICICI Prudential Equity Savings Fund | Equity Savings | 10% |
+| ICICI Prudential Equity & Debt Fund | Aggressive Hybrid | 30% |
+
+
 ## Agressive Hybrid
 
 | Mutual Fund | AUM | Exit Load | Expense Ratio |
