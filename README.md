@@ -1,7 +1,7 @@
 # Hybrid Mutual Funds Portfolio Analysis
 
 ## Overview
-This analysis focuses on creating an optimized portfolio using various categories of Hybrid Mutual Funds in India. We selected the top 5 funds based on Assets Under Management (AUM) for each type of Hybrid Mutual Fund, then applied a portfolio optimization algorithm to select one fund from each category. 
+This analysis focuses on creating an optimized portfolio using various categories of Hybrid Mutual Funds in India. We selected the top 5 funds based on Assets Under Management (AUM) for each type of Hybrid Mutual Fund, then applied a portfolio optimization algorithm to select one fund from each category.
 
 > **Note:** All analysis was performed on Direct Growth Funds only.
 
@@ -9,7 +9,6 @@ This analysis focuses on creating an optimized portfolio using various categorie
 - [AMFI - Association of Mutual Funds in India](https://www.amfiindia.com/net-asset-value/nav-history)
 
 ## Optimized Portfolio Recommendation
-
 | Mutual Fund | Category | Allocation |
 |:------------|:--------:|----------:|
 | ICICI Prudential Equity & Debt Fund | Aggressive Hybrid | 30% |
@@ -17,6 +16,23 @@ This analysis focuses on creating an optimized portfolio using various categorie
 | ICICI Prudential Regular Savings Fund | Conservative Hybrid | 10% |
 | ICICI Prudential Equity Savings Fund | Equity Savings | 10% |
 | ICICI Prudential Multi Asset Fund | Multi Asset | 40% |
+
+## Portfolio Performance (Sept 2020 - Feb 2025)
+![Portfolio vs Benchmark Performance](perf_comp.png)
+
+## Performance Metrics
+The following metrics were calculated based on a risk-free interest rate of 6% using data from September 2020 to February 2025:
+
+| Metric | Portfolio | NIFTY 50 Benchmark |
+|:-------|----------:|-------------------:|
+| Sharpe Ratio | 1.602 | 0.737 |
+| Sortino Ratio | 2.006 | 0.987 |
+| CAGR | 21.0% | 16.9% |
+| Risk-Adjusted Returns | 2.505 | 1.167 |
+| Risk-Adjusted Returns (Downside) | 3.136 | 1.563 |
+
+The portfolio significantly outperforms the NIFTY 50 benchmark across all key performance metrics, demonstrating superior risk-adjusted returns and downside protection.
+
 
 ## Category Analysis
 
